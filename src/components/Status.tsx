@@ -7,11 +7,18 @@ function Status() {
     if (!context) {
         throw new Error('Status must be used within a QuizProvider');
     }
-    const { dispatch } = context;
+    const { state, dispatch } = context;
 
     const handleStatus = (status: string) => {
         dispatch({ type: 'SET_STATUS', payload: status });
-        dispatch({ type: 'NEXT_QUESTION' });
+    };
+
+    const handleBegin = () => {
+        if (state.status) dispatch({ type: 'NEXT_QUESTION' });
+    };
+
+    const handleRestart = () => {
+        dispatch({ type: 'SET_RESTART' });
     };
 
     return (
@@ -19,6 +26,8 @@ function Status() {
             <h2>Are you single or in a couple?</h2>
             <button onClick={() => handleStatus('Single')}>Single</button>
             <button onClick={() => handleStatus('Couple')}>Couple</button>
+            <button onClick={handleRestart}>Back To Start</button>
+            <button onClick={handleBegin}>Begin Quiz</button>
         </div>
     );
 }
