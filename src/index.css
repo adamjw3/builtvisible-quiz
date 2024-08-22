@@ -134,6 +134,7 @@
 
 .quiz-start {
     background: transparent url('./assets/start-icons-mobile.png') 50% 0 no-repeat;
+    background-size: contain;
     width: 100%;
     position: relative;
     z-index: 2;
