@@ -14,9 +14,19 @@ function Start() {
     };
 
     return (
-        <div>
-            <h1>Welcome to the Quiz</h1>
-            <button onClick={handleStart}>Start</button>
+        <div className="quiz-start quiz-grid">
+            <div className="quiz-start__content">
+                <p className="quiz-start__content-intro">
+                    The quiz is designed to help you navigate intimacy within your relationships by answering <strong>10 questions around sexual experiences, exploration and performance</strong>.
+                    <br />
+                    <br /> Each question will be scored between 1-5 and a score for sexual and non-sexual intimacy will be granted at the end of the quiz.
+                    <br />
+                    <br /> To get the best results - you will benefit if you answer honestly.
+                </p>
+                <button onClick={handleStart} className="btn">
+                    Start
+                </button>
+            </div>
         </div>
     );
 }
