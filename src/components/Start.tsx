@@ -166,7 +166,7 @@ function Start() {
                         <br /> To get the best results - you will benefit if you answer honestly.
                     </p>
                     <button onClick={handleStart} className="btn">
-                        Start
+                        <span className="btn__inner">Start</span>
                     </button>
                 </div>
             </div>

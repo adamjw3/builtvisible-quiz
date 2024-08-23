@@ -273,27 +273,201 @@
     }
 }
 
+.quiz-status {
+}
+
+.quiz-status__header {
+    font-family: 'Luckiest Guy';
+    font-size: 32px;
+    grid-column: span 4;
+    padding: 70px 18px 0 18px;
+}
+
+@media screen and (min-width: 480px) {
+    .quiz-status__header {
+        grid-column: span 10 / span 10;
+        grid-column-start: 2; /* Start at the 3rd column */
+        padding: 70px 0 0 0;
+        font-size: clamp(32px, 5vw, 40px);
+    }
+}
+
+.quiz-staus__content-bg {
+    grid-column: span 4;
+    background: transparent url('./assets/satrt-bg-mobile-only.png') 50% 0 no-repeat;
+    background-size: cover;
+    z-index: 2;
+    height: 533px;
+    display: flex;
+    align-items: center;
+    align-self: end;
+}
+
+@media screen and (min-width: 480px) {
+    .quiz-staus__content-bg {
+        display: grid;
+        grid-column: span 12;
+        background: transparent url('./assets/satrt-bg-desktop-only.png') 50% 0 no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        height: 489px;
+    }
+}
+
+.quiz-staus__content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.quiz-staus__content-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 320px;
+    margin-top: auto;
+}
+
+@media screen and (min-width: 480px) {
+    .quiz-staus__content-options {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 444px;
+        margin-top: auto;
+    }
+}
+
+.quiz-staus__content-controls {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 374px;
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 480px) {
+    .quiz-staus__content-controls {
+        display: flex;
+        align-self: flex-end;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: auto;
+        margin-bottom: 60px;
+        width: 481px;
+    }
+}
+
 .quiz-grid {
     display: grid;
     gap: 18px;
     grid-template-columns: repeat(4, 1fr);
+    height: 100%;
 }
 
 @media screen and (min-width: 480px) {
     .quiz-grid {
         gap: 20px;
         grid-template-columns: repeat(12, 1fr);
-        height: 700px;
     }
 }
 
 .btn {
-    background-color: #ffffff;
+    background-color: transparent;
     color: #ec2285;
-    font-weight: 700;
-    padding: 14px 20px;
     border: 1px solid #ec2285;
     border-radius: 50px;
-    width: 225px;
+    width: 177px;
     cursor: pointer;
+    padding: 2px;
+    box-shadow: 8px 8px 25px rgba(236, 34, 133, 0.25); /* Added drop shadow */
+}
+
+@media screen and (min-width: 480px) {
+    .btn {
+        width: 225px;
+    }
+}
+
+.btn__inner {
+    background-color: #ffffff;
+    display: flex;
+    padding: 14px 20px;
+    border: 2px solid transparent;
+    width: 100%;
+    border-radius: 50px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__round {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent;
+    width: 112px;
+    height: 112px;
+    color: #ec2285;
+    font-weight: 700;
+    border: 1px solid #ec2285;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 2px;
+    box-shadow: 8px 8px 25px rgba(236, 34, 133, 0.25); /* Added drop shadow */
+}
+
+@media screen and (min-width: 480px) {
+    .btn__round {
+        font-weight: bold;
+        font-size: 18px;
+        background-color: transparent;
+        width: 180px;
+        height: 180px;
+        color: #ec2285;
+        font-weight: 700;
+        border: 1px solid #ec2285;
+        border-radius: 100%;
+        cursor: pointer;
+        padding: 2px;
+        box-shadow: 8px 8px 25px rgba(236, 34, 133, 0.25); /* Added drop shadow */
+    }
+}
+
+.btn__round-inner {
+    background-color: #ffffff;
+    display: flex;
+    border: 2px solid transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn__round-inner-svg {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+@media screen and (min-width: 480px) {
+    .btn__round-inner-svg {
+        max-height: 50%;
+        max-width: 50%;
+    }
+}
+
+.btn__round-inner-text {
+    margin-bottom: 8px;
 }
