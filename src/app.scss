@@ -457,12 +457,14 @@
         color: #ec2285;
         border: 1px solid #ec2285;
         border-radius: 50px;
-        width: 150px;
+        min-width: 150px;
+        max-width: 169px;
         cursor: pointer;
         padding: 2px;
         box-shadow: 8px 8px 25px rgba(236, 34, 133, 0.25);
 
         @media screen and (min-width: 480px) {
+            max-width: none;
             width: 225px;
         }
 
