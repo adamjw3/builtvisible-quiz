@@ -15,7 +15,7 @@ function Quiz() {
 
     if (state.start) {
         return <Start />;
-    } else if (!state.start && state.currentQuestionIndex === 0) {
+    } else if (!state.start && state.status == null) {
         return <Status />;
     } else if (state.currentQuestionIndex < 10) {
         return <Question />;

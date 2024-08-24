@@ -1,20 +1,21 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { QuizContext } from '../context/QuizContext';
 
 function Status() {
     const context = useContext(QuizContext);
+    const [status, setStatus] = useState('');
 
     if (!context) {
         throw new Error('Status must be used within a QuizProvider');
     }
-    const { state, dispatch } = context;
+    const { dispatch } = context;
 
     const handleStatus = (status: string) => {
-        dispatch({ type: 'SET_STATUS', payload: status });
+        setStatus(status);
     };
 
     const handleBegin = () => {
-        if (state.status) dispatch({ type: 'NEXT_QUESTION' });
+        if (status) dispatch({ type: 'SET_STATUS', payload: status });
     };
 
     const handleRestart = () => {

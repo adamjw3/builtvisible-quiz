@@ -36,7 +36,7 @@ export interface QuizState {
 
 export type QuizAction =
     | { type: 'SET_START'; payload: boolean }
-    | { type: 'SET_STATUS'; payload: string }
+    | { type: 'SET_STATUS'; payload: string | null }
     | { type: 'SET_RESTART' }
     | { type: 'NEXT_QUESTION' }
     | { type: 'PREV_QUESTION' }
