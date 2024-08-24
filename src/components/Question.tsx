@@ -16,8 +16,6 @@ function Question() {
     const questions = quizDataTyped.quiz.find((q) => q.status === state.status)!.questions;
     const currentQuestion = questions[state.currentQuestionIndex];
 
-    console.log('questions', questions);
-
     const handleAnswer = (answerId: number) => {
         dispatch({ type: 'ANSWER_QUESTION', payload: answerId });
     };

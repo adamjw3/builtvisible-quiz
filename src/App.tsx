@@ -6,8 +6,11 @@ function App() {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        window.addEventListener('load', () => setIsLoading(false));
-        return () => window.removeEventListener('load', () => setIsLoading(false));
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 200);
+
+        return () => clearTimeout(timer);
     }, []);
 
     return (
