@@ -367,6 +367,48 @@
     }
 }
 
+.quiz-question__icon {
+    grid-column: span 3;
+    position: relative;
+}
+
+.quiz-question__icon img {
+    position: absolute;
+    left: -15px;
+}
+
+.quiz-question__icon span {
+    position: absolute;
+    top: 40px;
+    right: 7px;
+}
+
+.quiz-question__item {
+    grid-column: span 9;
+}
+
+.quiz-question__item-category {
+    font-family: 'Luckiest Guy';
+    background-color: #ffffff;
+    color: #ec2285;
+    font-size: 16px;
+    width: fit-content;
+    padding: 7px 8px;
+    border-radius: 4px;
+}
+
+.quiz-question__item-question {
+    font-family: 'Luckiest Guy';
+    font-size: 40px;
+    color: #000000;
+}
+
+.quiz-question__item-answer {
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
 .quiz-grid {
     display: grid;
     gap: 18px;

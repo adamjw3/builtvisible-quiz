@@ -20,9 +20,9 @@ function Results() {
     };
 
     return (
-        <div>
+        <div className="quiz-results quiz-grid">
+            <h1>Results!</h1>
             <button onClick={() => handleRestart()}>Restart</button>
-            <h1>Results</h1>
             <p>
                 Sexual Intimacy: {state.scores['Sexual Intimacy']} {state.status}
             </p>
