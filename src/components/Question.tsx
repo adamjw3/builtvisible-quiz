@@ -35,14 +35,14 @@ function Question() {
             <div className="quiz-question__icon">
                 <span className="quiz-question__icon-image">
                     <img src={getImageURL(currentQuestion.icon)} alt={currentQuestion.icon} />
-                    <span className="quiz-question__icon-number">Q{state.currentQuestionIndex + 1}</span>
+                    <span className="quiz-question__icon-number">Q{state.currentQuestionIndex}</span>
                 </span>
             </div>
 
             <div className="quiz-question__item">
                 <span className="quiz-question__item-category">{currentQuestion.category}</span>
                 <h2 className="quiz-question__item-question">
-                    <span>Q{state.currentQuestionIndex + 1} </span>
+                    <span>Q{state.currentQuestionIndex} </span>
                     {currentQuestion.body}
                 </h2>
                 {currentQuestion.answers.map((answer) => (
