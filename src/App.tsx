@@ -1,10 +1,18 @@
+import { useState, useEffect } from 'react';
 import { QuizProvider } from './context/QuizContext';
 import Quiz from './components/Quiz';
 
 function App() {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        window.addEventListener('load', () => setIsLoading(false));
+        return () => window.removeEventListener('load', () => setIsLoading(false));
+    }, []);
+
     return (
         <QuizProvider>
-            <div className="quiz-container">
+            <div className={isLoading ? 'quiz-container loading' : 'quiz-container'}>
                 <Quiz />
             </div>
         </QuizProvider>
