@@ -426,6 +426,8 @@
 
     .quiz-results {
         padding: 20px;
+        position: relative;
+        overflow: hidden;
 
         @media screen and (min-width: 480px) {
             padding: 42px 32px;
@@ -434,9 +436,100 @@
         h1 {
             grid-column: span 12;
             font-family: 'Luckiest Guy';
-            font-size: 54px;
+            font-size: 42px;
             color: #000000;
             margin: 0;
+
+            @media screen and (min-width: 480px) {
+                font-size: 54px;
+            }
+        }
+
+        .quiz-results__restart-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+
+            @media screen and (min-width: 480px) {
+                top: 37px;
+                right: 37px;
+            }
+        }
+
+        .quiz-results__graph {
+            grid-column: span 12;
+        }
+
+        .quiz-results__tab-controls {
+            display: flex;
+            grid-column: span 12;
+
+            .quiz-results__tab-controls-btn {
+                flex: 0 0 50%;
+                padding: 10px;
+                background-color: transparent;
+                font-family: 'Luckiest Guy';
+                font-size: 16px;
+                color: #000000;
+                border: none;
+                border-bottom: 2px solid #ec2285;
+                opacity: 0.5;
+                cursor: pointer;
+
+                &--active {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .quiz-results__tab-content {
+            grid-column: span 12;
+            position: relative;
+
+            &::before {
+                content: '';
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+                position: absolute;
+                top: -19px;
+                left: -32px;
+                height: 120%;
+                width: 120%;
+                opacity: 0.5;
+                z-index: 2;
+            }
+
+            .quiz-results__tab-content-inner {
+                position: relative;
+                z-index: 3;
+
+                .quiz-results__tab-content-header {
+                    grid-column: span 3;
+
+                    h2 {
+                        font-family: 'Luckiest Guy';
+                        font-size: 32px;
+                        color: #000000;
+                        position: relative;
+                        display: inline-block;
+                        padding-bottom: 10px;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 50%;
+                            height: 4px;
+                            background-color: #ec2285;
+                        }
+                    }
+                }
+
+                .quiz-results__tab-content-body {
+                    font-size: 14px;
+                    grid-column: span 9;
+                }
+            }
         }
     }
 
@@ -517,6 +610,22 @@
             cursor: pointer;
             padding: 2px;
             box-shadow: 8px 8px 25px rgba(236, 34, 133, 0.25); /* Added drop shadow */
+        }
+
+        &--small {
+            font-size: 14px;
+            width: 94px;
+            height: 94px;
+            @media screen and (min-width: 480px) {
+                font-size: 14px;
+                width: 112px;
+                height: 112px;
+            }
+
+            .btn__round-inner-svg {
+                max-height: 40% !important;
+                max-width: 40% !important;
+            }
         }
 
         .btn__round-inner {
