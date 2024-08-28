@@ -35,9 +35,9 @@ function Status() {
                                     <path
                                         d="M66.667 70.5v-6.667A13.334 13.334 0 0 0 53.333 50.5H26.667a13.334 13.334 0 0 0-13.334 13.333V70.5M40 37.167c7.364 0 13.333-5.97 13.333-13.334C53.333 16.47 47.363 10.5 40 10.5c-7.364 0-13.333 5.97-13.333 13.333 0 7.364 5.97 13.334 13.333 13.334Z"
                                         stroke="#21272A"
-                                        stroke-width="3"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                 </svg>
                             </span>
@@ -49,9 +49,9 @@ function Status() {
                                     <path
                                         d="M56.667 70.5v-6.667A13.333 13.333 0 0 0 43.333 50.5H16.667A13.334 13.334 0 0 0 3.333 63.833V70.5M30 37.167c7.364 0 13.333-5.97 13.333-13.334C43.333 16.47 37.363 10.5 30 10.5c-7.364 0-13.333 5.97-13.333 13.333 0 7.364 5.97 13.334 13.333 13.334ZM76.667 70.5v-6.667a13.333 13.333 0 0 0-10-12.9M53.333 10.933a13.334 13.334 0 0 1 0 25.834"
                                         stroke="#21272A"
-                                        stroke-width="3"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="3"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                 </svg>
                             </span>
@@ -61,7 +61,7 @@ function Status() {
                         <button onClick={handleRestart} className="btn">
                             <span className="btn__inner">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.5 18L9.5 12L15.5 6" stroke="#21272A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M15.5 18L9.5 12L15.5 6" stroke="#21272A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                                 <span>Back To Start</span>
                             </span>
@@ -70,7 +70,7 @@ function Status() {
                             <span className="btn__inner">
                                 <span>Begin Quiz</span>
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.5 18L15.5 12L9.5 6" stroke="#090A0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M9.5 18L15.5 12L9.5 6" stroke="#090A0D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </span>
                         </button>
