@@ -1,15 +1,25 @@
-import { useContext, useState } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { QuizContext } from '../context/QuizContext';
 
 function Results() {
     const context = useContext(QuizContext);
 
+    enum Score {
+        LOW = '33%',
+        MEDIUM = '66%',
+        HIGH = '100%',
+    }
+
     const [IsSexual, SetIsSexual] = useState(true);
+    const [SexualScore, SetSexualScore] = useState('');
+    const [NonSexualScore, SetNonSexualScore] = useState('');
 
     if (!context) {
         throw new Error('Results must be used within a QuizProvider');
     }
     const { state, dispatch } = context;
+
+    console.log('state', state);
 
     const handleRestart = () => {
         dispatch({ type: 'SET_RESTART' });
@@ -18,6 +28,42 @@ function Results() {
     const handleTabs = (val: boolean) => {
         SetIsSexual(val);
     };
+
+    useEffect(() => {
+        if (state.status === 'Couple') {
+            if (state.scores['Sexual Intimacy'] <= 13) {
+                SetSexualScore(Score.LOW);
+            } else if (state.scores['Sexual Intimacy'] <= 21) {
+                SetSexualScore(Score.MEDIUM);
+            } else {
+                SetSexualScore(Score.HIGH);
+            }
+
+            if (state.scores['Non - Sexual Intimacy'] <= 9) {
+                SetNonSexualScore(Score.LOW);
+            } else if (state.scores['Non - Sexual Intimacy'] <= 15) {
+                SetNonSexualScore(Score.MEDIUM);
+            } else {
+                SetNonSexualScore(Score.HIGH);
+            }
+        } else {
+            if (state.scores['Sexual Intimacy'] <= 16) {
+                SetSexualScore(Score.LOW);
+            } else if (state.scores['Sexual Intimacy'] <= 25) {
+                SetSexualScore(Score.MEDIUM);
+            } else {
+                SetSexualScore(Score.HIGH);
+            }
+
+            if (state.scores['Non - Sexual Intimacy'] <= 7) {
+                SetNonSexualScore(Score.LOW);
+            } else if (state.scores['Non - Sexual Intimacy'] <= 11) {
+                SetNonSexualScore(Score.MEDIUM);
+            } else {
+                SetNonSexualScore(Score.HIGH);
+            }
+        }
+    }, []);
 
     return (
         <div className="quiz-results quiz-grid">
@@ -560,11 +606,11 @@ function Results() {
                 <div className="quiz-result__graph-lines">
                     <div className="quiz-result__graph-bars">
                         <div className="quiz-result__graph-bar">
-                            <div className="quiz-result__graph-result" style={{ width: '33%' }}></div>
+                            <div className="quiz-result__graph-result" style={{ width: SexualScore }}></div>
                             <span className="quiz-result__graph-bar-title">Sexual Intimacy</span>
                         </div>
                         <div className="quiz-result__graph-bar">
-                            <div className="quiz-result__graph-result" style={{ width: '66%' }}></div>
+                            <div className="quiz-result__graph-result" style={{ width: NonSexualScore }}></div>
                             <span className="quiz-result__graph-bar-title">Non-Sexual Intimacy</span>
                         </div>
                         <div className="quiz-result__graph-bar-marker quiz-result__graph-bar-marker-low">
@@ -578,13 +624,6 @@ function Results() {
                         </div>
                     </div>
                 </div>
-                {/*
-                <p>
-                    Sexual Intimacy: {state.scores['Sexual Intimacy']} {state.status}
-                </p>
-                <p>
-                    Non-Sexual Intimacy: {state.scores['Non - Sexual Intimacy']} {state.status}
-                </p>*/}
             </div>
 
             <div className="quiz-results__tab-controls">
