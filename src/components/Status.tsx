@@ -8,7 +8,7 @@ function Status() {
     if (!context) {
         throw new Error('Status must be used within a QuizProvider');
     }
-    const { dispatch } = context;
+    const { dispatch, state } = context; // Access the state from context, assuming it holds the current status.
 
     const handleStatus = (status: string) => {
         setStatus(status);
@@ -24,11 +24,11 @@ function Status() {
 
     return (
         <div className="quiz-status quiz-grid">
-            <h2 className="quiz-status__header">Lorem ipsum dolor sit amet, consectetur adipiscing?</h2>
+            <h2 className="quiz-status__header">Are you currently single or in a couple?</h2>
             <div className="quiz-staus__content-bg">
                 <div className="quiz-staus__content">
                     <div className="quiz-staus__content-options">
-                        <button onClick={() => handleStatus('Single')} className="btn__round">
+                        <button onClick={() => handleStatus('Single')} className={`btn__round ${state.status === 'Single' || status === 'Single' ? 'is-selected' : ''}`}>
                             <span className="btn__round-inner">
                                 <span className="btn__round-inner-text">Single</span>
                                 <svg className="btn__round-inner-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -42,7 +42,7 @@ function Status() {
                                 </svg>
                             </span>
                         </button>
-                        <button onClick={() => handleStatus('Couple')} className="btn__round">
+                        <button onClick={() => handleStatus('Couple')} className={`btn__round ${state.status === 'Couple' || status === 'Couple' ? 'is-selected' : ''}`}>
                             <span className="btn__round-inner">
                                 <span className="btn__round-inner-text">Couple</span>
                                 <svg className="btn__round-inner-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">

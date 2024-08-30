@@ -6,7 +6,7 @@
             "questions": [
                 {
                     "id": 1,
-                    "body": "How often do you discuss your sexual preferences and boundaries with sexual partners?",
+                    "body": "How often do you discuss sexual preferences and boundaries with partners?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -120,7 +120,7 @@
                 },
                 {
                     "id": 4,
-                    "body": "Do you feel anxious about your sexual performance?",
+                    "body": "Do you feel anxious about your sexual performance or ability?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -158,7 +158,7 @@
                 },
                 {
                     "id": 5,
-                    "body": "How comfortable are you discussing past sexual experiences with a new partner?",
+                    "body": "How do you feel about sharing past sexual experiences with a new partner?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -196,7 +196,7 @@
                 },
                 {
                     "id": 6,
-                    "body": "How often do you initiate conversations about sexual health with a new sexual partner?",
+                    "body": "How often do you start discussions about sexual health with a new partner?",
                     "category": "Non - Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -234,7 +234,7 @@
                 },
                 {
                     "id": 7,
-                    "body": "Do you struggle to be intimate with the people you sleep with outside of having sex?",
+                    "body": "Do you struggle with intimacy beyond just having sex with your partners?",
                     "category": "Non - Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -310,7 +310,7 @@
                 },
                 {
                     "id": 9,
-                    "body": "How comfortable are you with trying new things in your sexual experiences?",
+                    "body": "How comfortable are you trying new things sexually?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -348,7 +348,7 @@
                 },
                 {
                     "id": 10,
-                    "body": "How often do you prioritise your own pleasure during sexual experiences?",
+                    "body": "How often do you prioritize your own pleasure during sex?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -468,7 +468,7 @@
                 },
                 {
                     "id": 3,
-                    "body": "How do you feel you'd respond as a couple if you or your partner suffered from sexual dysfunction?",
+                    "body": "How would you and your partner handle sexual dysfunction?",
                     "category": "Non - Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -582,7 +582,7 @@
                 },
                 {
                     "id": 6,
-                    "body": "How aligned are you and your partners sex drives?",
+                    "body": "How aligned are you and your partner's sexual drives and desires?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -620,7 +620,7 @@
                 },
                 {
                     "id": 7,
-                    "body": "How open are you and your partner with communication regarding sexual needs and preferences?",
+                    "body": "How open are you and your partner about sexual needs and preferences?",
                     "category": "Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -696,7 +696,7 @@
                 },
                 {
                     "id": 9,
-                    "body": "How well do you think your partner knows and responds to your love languages?",
+                    "body": "How well does your partner understand and respond to your love languages?",
                     "category": "Non - Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [
@@ -734,7 +734,7 @@
                 },
                 {
                     "id": 10,
-                    "body": "How do you and your partner typically show non-sexual intimacy to each other?",
+                    "body": "How do you and your partner typically show non-sexual intimacy?",
                     "category": "Non - Sexual Intimacy",
                     "icon": "icon-test.png",
                     "answers": [

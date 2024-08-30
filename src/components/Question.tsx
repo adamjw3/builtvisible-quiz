@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { QuizContext } from '../context/QuizContext';
 import quizData from '../data/quiz.json';
 import { QuizData } from '../types/quiz';
@@ -16,21 +16,38 @@ function Question() {
     const questions = quizDataTyped.quiz.find((q) => q.status === state.status)!.questions;
     const currentQuestion = questions[state.currentQuestionIndex];
 
+    // State to track the currently selected answer
+    const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+
+    useEffect(() => {
+        // Preselect the answer if it has already been answered
+        const existingAnswer = state.answers[state.currentQuestionIndex];
+
+        console.log('existingAnswer', existingAnswer);
+        if (existingAnswer !== undefined) {
+            setSelectedAnswer(existingAnswer);
+        }
+    }, [state.currentQuestionIndex, state.answers]);
+
     const handleAnswer = (answerId: number) => {
+        setSelectedAnswer(answerId); // Set the selected answer
         dispatch({ type: 'ANSWER_QUESTION', payload: answerId });
     };
 
     const handleNext = () => {
         if (state.answers[state.currentQuestionIndex] !== undefined) {
             dispatch({ type: 'NEXT_QUESTION' });
+            setSelectedAnswer(null);
         }
     };
 
     const handlePrev = () => {
         if (state.currentQuestionIndex > 0) {
             dispatch({ type: 'PREV_QUESTION' });
+            setSelectedAnswer(null);
         } else {
             dispatch({ type: 'SET_STATUS', payload: null });
+            setSelectedAnswer(null);
         }
     };
 
@@ -50,7 +67,12 @@ function Question() {
                     {currentQuestion.body}
                 </h2>
                 {currentQuestion.answers.map((answer) => (
-                    <button key={answer.id} onClick={() => handleAnswer(answer.id)} className="quiz-question__item-answer" dangerouslySetInnerHTML={{ __html: answer.body }}></button>
+                    <button
+                        key={answer.id}
+                        onClick={() => handleAnswer(answer.id)}
+                        className={`quiz-question__item-answer ${selectedAnswer === answer.id ? 'is-selected' : ''}`}
+                        dangerouslySetInnerHTML={{ __html: answer.body }}
+                    ></button>
                 ))}
             </div>
 
