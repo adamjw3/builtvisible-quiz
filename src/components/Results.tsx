@@ -790,7 +790,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] <= 9 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Needs work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Time to focus on building emotional connection and understanding each other's love languages.</p>
@@ -813,7 +813,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 10 && state.scores['Non - Sexual Intimacy'] <= 15 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Not Bad!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>You have a good understanding but could enhance your connection further.</p>
@@ -833,7 +833,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 16 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Impressive!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Nice work, you are strong in this area but can always find ways to keep your relationship dynamic and fulfilling. </p>
@@ -857,7 +857,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] <= 7 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Needs work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>
@@ -878,7 +878,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 8 && state.scores['Non - Sexual Intimacy'] <= 11 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Not Bad!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>You have a good understanding but can enhance your emotional connections further.</p>
@@ -893,7 +893,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 12 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Impressive!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>You are strong in this area but can always find ways to keep your relationships dynamic and fulfilling.</p>

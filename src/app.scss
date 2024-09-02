@@ -175,12 +175,11 @@
 
         .curved-text {
             font-family: 'Luckiest Guy';
-            font-size: calc(9vw + 1px);
-            font-size: min(calc(9vw + 1px), 70px); /* Caps the size at 70px */
-            letter-spacing: 0.8px;
+            font-size: clamp(40px, 10vw + 1px, 80px);
+            letter-spacing: -0.05em;
 
             @media screen and (min-width: 480px) {
-                letter-spacing: 1.5px;
+                letter-spacing: -0.05em;
             }
         }
 
@@ -637,7 +636,7 @@
 
                     h2 {
                         font-family: 'Luckiest Guy';
-                        font-size: 32px;
+                        font-size: 28px;
                         color: #000000;
                         position: relative;
                         display: inline-block;
