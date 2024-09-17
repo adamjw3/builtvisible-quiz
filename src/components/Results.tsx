@@ -833,7 +833,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 16 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Impressive!</h2>
+                                                <h2>Great!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Nice work, you are strong in this area but can always find ways to keep your relationship dynamic and fulfilling. </p>
@@ -893,7 +893,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] >= 12 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Impressive!</h2>
+                                                <h2>Great!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>You are strong in this area but can always find ways to keep your relationships dynamic and fulfilling.</p>

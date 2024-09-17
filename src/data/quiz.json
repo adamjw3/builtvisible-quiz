@@ -18,25 +18,25 @@
                         },
                         {
                             "id": 2,
-                            "body": "I feel hesitant and unsure about bringing up these topics.",
+                            "body": "I feel hesitant and unsure about bringing up these topics",
                             "question_id": 1,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I would discuss these occasionally but wish I could be more open.",
+                            "body": "I would discuss these occasionally but wish I could be more open",
                             "question_id": 1,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I feel relatively comfortable and believe it helps maintain a healthy sexual relationship.",
+                            "body": "I feel relatively comfortable and believe it helps maintain a healthy sexual relationship",
                             "question_id": 1,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I feel very confident openly discussing these.",
+                            "body": "I feel very confident openly discussing these",
                             "question_id": 1,
                             "score": 5
                         }
@@ -50,31 +50,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I rarely or never feel comfortable initiating sexual activity.",
+                            "body": "I rarely or never feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "Often feel hesitant or unsure initiating sexual activity.",
+                            "body": "Often feel hesitant or unsure initiating sexual activity",
                             "question_id": 2,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I feel neither particularly comfortable nor uncomfortable initiating sexual activity.",
+                            "body": "I feel neither particularly comfortable nor uncomfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I usually feel comfortable initiating sexual activity.",
+                            "body": "I usually feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I always or almost always feel comfortable initiating sexual activity.",
+                            "body": "I always or almost always feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 5
                         }
@@ -88,31 +88,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I always need alcohol to feel comfortable during sex.",
+                            "body": "I always need alcohol to feel comfortable during sex",
                             "question_id": 3,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I frequently use alcohol to relax and open up sexually.",
+                            "body": "I frequently use alcohol to relax and open up sexually",
                             "question_id": 3,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I occasionally use alcohol to enhance intimacy.",
+                            "body": "I occasionally use alcohol to enhance intimacy",
                             "question_id": 3,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I rarely need alcohol, but it can enhance the mood.",
+                            "body": "I rarely need alcohol, but it can enhance the mood",
                             "question_id": 3,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I never rely on alcohol for sexual experiences.",
+                            "body": "I never rely on alcohol for sexual experiences",
                             "question_id": 3,
                             "score": 5
                         }
@@ -126,31 +126,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I feel extremely anxious about my sexual performance.",
+                            "body": "I feel extremely anxious about my sexual performance",
                             "question_id": 4,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I feel anxious about my sexual performance.",
+                            "body": "I feel anxious about my sexual performance",
                             "question_id": 4,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I don't think about my sexual performance.",
+                            "body": "I don't think about my sexual performance",
                             "question_id": 4,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I'm pretty confident in my sexual performance.",
+                            "body": "I'm pretty confident in my sexual performance",
                             "question_id": 4,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I'm feel confident about my sexual performance.",
+                            "body": "I'm feel confident about my sexual performance",
                             "question_id": 4,
                             "score": 5
                         }
@@ -202,31 +202,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I feel very uneasy and avoidant about these topics.",
+                            "body": "I feel very uneasy and avoidant about these topics",
                             "question_id": 6,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I often feel awkward and uncertain about discussing sexual health.",
+                            "body": "I often feel awkward and uncertain about discussing sexual health",
                             "question_id": 6,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I feel somewhat comfortable but can get caught up in the moment.",
+                            "body": "I feel somewhat comfortable but can get caught up in the moment",
                             "question_id": 6,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I believe open communication on these topics is important.",
+                            "body": "I believe open communication on these topics is important",
                             "question_id": 6,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I initiate conversations about sexual health every time.",
+                            "body": "I initiate conversations about sexual health every time",
                             "question_id": 6,
                             "score": 5
                         }
@@ -240,31 +240,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I have no interest in forming deeper emotional bonds.",
+                            "body": "I have no interest in forming deeper emotional bonds",
                             "question_id": 7,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I generally find it challenging to maintain non-sexual intimacy.",
+                            "body": "I generally find it challenging to maintain non-sexual intimacy",
                             "question_id": 7,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "Moderately confident",
+                            "body": "I sometimes find it difficult to form emotional connections",
                             "question_id": 7,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "Very confident",
+                            "body": "I usually am good at forming emotional connections",
                             "question_id": 7,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I feel very connected and maintain strong emotional bonds beyond physical intimacy.",
+                            "body": "I feel very connected and maintain strong emotional bonds beyond physical intimacy",
                             "question_id": 7,
                             "score": 5
                         }
@@ -316,31 +316,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I prefer to stick to what I know and avoid trying new things.",
+                            "body": "I prefer to stick to what I know and avoid trying new things",
                             "question_id": 9,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I might try something new occasionally, but it makes me anxious.",
+                            "body": "I might try something new occasionally, but it makes me anxious",
                             "question_id": 9,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I'm often open to new experiences, especially if discussed prior.",
+                            "body": "I'm often open to new experiences, especially if discussed prior",
                             "question_id": 9,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I enjoy exploring new things and often suggest new ideas.",
+                            "body": "I enjoy exploring new things and often suggest new ideas",
                             "question_id": 9,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I'm always excited to try new experiences and actively seek them out.",
+                            "body": "I'm always excited to try new experiences and actively seek them out",
                             "question_id": 9,
                             "score": 5
                         }
@@ -360,25 +360,25 @@
                         },
                         {
                             "id": 2,
-                            "body": "I sometimes consider my own pleasure, but it’s not a priority.",
+                            "body": "I sometimes consider my own pleasure, but it's not a priority",
                             "question_id": 10,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I balance my pleasure with my partner’s, focusing on both.",
+                            "body": "I balance my pleasure with my partner's, focusing on both",
                             "question_id": 10,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I often communicate my desires.",
+                            "body": "I often communicate my desires",
                             "question_id": 10,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I consistently ensure my needs are met.",
+                            "body": "I consistently ensure my needs are met",
                             "question_id": 10,
                             "score": 5
                         }
@@ -404,25 +404,25 @@
                         },
                         {
                             "id": 2,
-                            "body": "I feel hesitant and unsure about bringing up these topics.",
+                            "body": "I feel hesitant and unsure about bringing up these topics",
                             "question_id": 1,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I discuss these occasionally but wish I could be more open.",
+                            "body": "I discuss these occasionally but wish I could be more open",
                             "question_id": 1,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I feel relatively comfortable and believe it helps maintain a healthy sexual relationship.",
+                            "body": "I feel relatively comfortable and believe it helps maintain a healthy sexual relationship",
                             "question_id": 1,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I feel very confident and connected with my partner.",
+                            "body": "I feel very confident and connected with my partner",
                             "question_id": 1,
                             "score": 5
                         }
@@ -436,31 +436,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I rarely or never feel comfortable initiating sexual activity.",
+                            "body": "I rarely or never feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "Often feel hesitant or unsure initiating sexual activity.",
+                            "body": "Often feel hesitant or unsure initiating sexual activity",
                             "question_id": 2,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I feel neither particularly comfortable nor uncomfortable initiating sexual activity.",
+                            "body": "I feel neither particularly comfortable nor uncomfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I usually feel comfortable initiating sexual activity.",
+                            "body": "I usually feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I always or almost always feel comfortable initiating sexual activity.",
+                            "body": "I always or almost always feel comfortable initiating sexual activity",
                             "question_id": 2,
                             "score": 5
                         }
@@ -474,31 +474,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "Ignore the issue and avoid talking about it.",
+                            "body": "Ignore the issue and avoid talking about it",
                             "question_id": 3,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "Blame each other or feel frustrated without addressing the problem.",
+                            "body": "Blame each other or feel frustrated without addressing the problem",
                             "question_id": 3,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "Seek occasional help, with inconsistent support.",
+                            "body": "Seek occasional help, with inconsistent support",
                             "question_id": 3,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "Moderately support each other, trying to find solutions together.",
+                            "body": "Moderately support each other, trying to find solutions together",
                             "question_id": 3,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "Fully support each other, working through it as a team.",
+                            "body": "Fully support each other, working through it as a team",
                             "question_id": 3,
                             "score": 5
                         }
@@ -512,31 +512,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I always need alcohol to feel comfortable during sex with my partner.",
+                            "body": "I always need alcohol to feel comfortable during sex with my partner",
                             "question_id": 4,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I frequently use alcohol to relax and open up sexually with my partner.",
+                            "body": "I frequently use alcohol to relax and open up sexually with my partner",
                             "question_id": 4,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I occasionally use alcohol to enhance intimacy with my partner.",
+                            "body": "I occasionally use alcohol to enhance intimacy with my partner",
                             "question_id": 4,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I rarely need alcohol, but it can enhance the mood with my partner.",
+                            "body": "I rarely need alcohol, but it can enhance the mood with my partner",
                             "question_id": 4,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I never rely on alcohol for sexual experiences with my partner.",
+                            "body": "I never rely on alcohol for sexual experiences with my partner",
                             "question_id": 4,
                             "score": 5
                         }
@@ -550,31 +550,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I feel extremely anxious about my sexual performance with my partner.",
+                            "body": "I feel extremely anxious about my sexual performance with my partner",
                             "question_id": 5,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I feel very anxious about my sexual performance with my partner.",
+                            "body": "I feel very anxious about my sexual performance with my partner",
                             "question_id": 5,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I feel moderately anxious about my sexual performance.",
+                            "body": "I feel moderately anxious about my sexual performance",
                             "question_id": 5,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I feel slightly anxious about my sexual performance with my partner.",
+                            "body": "I feel slightly anxious about my sexual performance with my partner",
                             "question_id": 5,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I’m not anxious at all about my sexual performance with my partner.",
+                            "body": "I’m not anxious at all about my sexual performance with my partner",
                             "question_id": 5,
                             "score": 5
                         }
@@ -588,31 +588,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I can't keep up/They can't keep up.",
+                            "body": "I can't keep up/They can't keep up",
                             "question_id": 6,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "Often mismatched, but we manage.",
+                            "body": "Often mismatched, but we manage",
                             "question_id": 6,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "Sometimes aligned, sometimes not.",
+                            "body": "Sometimes aligned, sometimes not",
                             "question_id": 6,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "Mostly aligned, with occasional differences.",
+                            "body": "Mostly aligned, with occasional differences",
                             "question_id": 6,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "We're completely in sync.",
+                            "body": "We're completely in sync",
                             "question_id": 6,
                             "score": 5
                         }
@@ -626,31 +626,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I don't feel comfortable discussing my sexual needs and preferences with my partner.",
+                            "body": "I don't feel comfortable discussing my sexual needs and preferences with my partner",
                             "question_id": 7,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I rarely feel comfortable talking about what I enjoy during sex.",
+                            "body": "I rarely feel comfortable talking about what I enjoy during sex",
                             "question_id": 7,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I sometimes feel comfortable sharing my likes and dislikes, but it depends on the topic and mood.",
+                            "body": "I sometimes feel comfortable sharing my likes and dislikes, but it depends on the topic and mood",
                             "question_id": 7,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I mostly feel comfortable discussing my needs, but some topics are off-limits.",
+                            "body": "I mostly feel comfortable discussing my needs, but some topics are off-limits",
                             "question_id": 7,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I feel completley comfortable openly expressing all my sexual needs and preferences.",
+                            "body": "I feel completley comfortable openly expressing all my sexual needs and preferences",
                             "question_id": 7,
                             "score": 5
                         }
@@ -664,31 +664,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "I don't really understand my partner's love language.",
+                            "body": "I don't really understand my partner's love language",
                             "question_id": 8,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "I struggle to know how to show love effectively to suit my partner's love language.",
+                            "body": "I struggle to know how to show love effectively to suit my partner's love language",
                             "question_id": 8,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "I sometimes try to show love in ways that matter to my partner.",
+                            "body": "I sometimes try to show love in ways that matter to my partner",
                             "question_id": 8,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "I mostly know how to make my partner feel loved.",
+                            "body": "I mostly know how to make my partner feel loved",
                             "question_id": 8,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "I always strive to show love in the ways that matter most to my partner.",
+                            "body": "I always strive to show love in the ways that matter most to my partner",
                             "question_id": 8,
                             "score": 5
                         }
@@ -702,31 +702,31 @@
                     "answers": [
                         {
                             "id": 1,
-                            "body": "My partner doesn't understand my love language.",
+                            "body": "My partner doesn't understand my love language",
                             "question_id": 9,
                             "score": 1
                         },
                         {
                             "id": 2,
-                            "body": "My partner struggles to show love in ways that matter to me.",
+                            "body": "My partner struggles to show love in ways that matter to me",
                             "question_id": 9,
                             "score": 2
                         },
                         {
                             "id": 3,
-                            "body": "My partner has some understanding of my love language.",
+                            "body": "My partner has some understanding of my love language",
                             "question_id": 9,
                             "score": 3
                         },
                         {
                             "id": 4,
-                            "body": "My partner usually knows how to make me feel loved.",
+                            "body": "My partner usually knows how to make me feel loved",
                             "question_id": 9,
                             "score": 4
                         },
                         {
                             "id": 5,
-                            "body": "My partner always shows love in ways that matter most to me.",
+                            "body": "My partner always shows love in ways that matter most to me",
                             "question_id": 9,
                             "score": 5
                         }
