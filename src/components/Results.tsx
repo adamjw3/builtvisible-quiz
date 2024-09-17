@@ -19,8 +19,6 @@ function Results() {
     }
     const { state, dispatch } = context;
 
-    console.log('state', state);
-
     const handleRestart = () => {
         dispatch({ type: 'SET_RESTART' });
     };
@@ -644,7 +642,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] <= 13 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Needs Work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Time to focus on building a stronger foundation of trust and communication with your partner. </p>
@@ -669,7 +667,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] >= 14 && state.scores['Sexual Intimacy'] <= 21 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Not Bad!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Scoring average in the sexual intimacy category, shows you have a good foundation but can still improve your connection and communication.</p>
@@ -691,7 +689,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] >= 22 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Nicely Done!</h2>
+                                                <h2>Great!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Scoring high in the sexual intimacy category, shows you are doing well in maintaining a healthy sexual relationship. </p>
@@ -714,7 +712,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] <= 16 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Needs Work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>It's time to focus on building your confidence and communication skills regarding sexual topics.</p>
@@ -743,7 +741,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] >= 17 && state.scores['Sexual Intimacy'] <= 25 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Not Bad!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Seems like you have a good foundation. </p>
@@ -765,7 +763,7 @@ function Results() {
                                     {state.scores['Sexual Intimacy'] >= 26 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Not Bad</h2>
+                                                <h2>Great!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>You are doing well to maintain a healthy sexual relationship!</p>
@@ -790,7 +788,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] <= 9 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Needs work!</h2>
+                                                <h2>Needs Work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>Time to focus on building emotional connection and understanding each other's love languages.</p>
@@ -857,7 +855,7 @@ function Results() {
                                     {state.scores['Non - Sexual Intimacy'] <= 7 && (
                                         <>
                                             <div className="quiz-results__tab-content-header">
-                                                <h2>Needs work!</h2>
+                                                <h2>Needs Work!</h2>
                                             </div>
                                             <div className="quiz-results__tab-content-body">
                                                 <p>
